@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#filename:func_local.py
+def func(x):
+    print 'x is',x
+    x = 2
+    print 'x is ',x
+
+x=50
+func(x)
+print 'x is ',x
